@@ -1,0 +1,33 @@
+body {
+    font-family: 'Lexend';
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+.Head {
+    width: 100%;
+    height: 120%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+img {
+    margin-left: 40%;
+}
+
+button {
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    padding: 15px;
+    margin: 30px;
+    margin-left: 50%;
+}
+
+a {
+    color: rgb(106, 106, 250);
+}
