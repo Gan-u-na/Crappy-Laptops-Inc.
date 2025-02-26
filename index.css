@@ -8,24 +8,46 @@ h1, h2, h3, h4 {
 
 .Head {
     width: 100%;
-    height: 120%;
+    height:500px;
     text-align: center;
     background-color: black;
     color: white;
 }
 
-img {
+.img-centered {
     margin-left: 40%;
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 100px;
+    text-align: center;
+    font-size: 36px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.grid-aligned {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
 }
 
 button {
     border: none;
-    border-radius: 30px;
+    border-radius: 25px;
     background-color: rgb(255, 166, 0);
     color: white;
     padding: 15px;
     margin: 30px;
-    margin-left: 50%;
+    margin-left: 45%;
 }
 
 a {
